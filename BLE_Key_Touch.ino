@@ -23,9 +23,6 @@ void setup() {
   //initialize Serial Monitor
   Serial.begin(115200);
   bleKeyboard.begin();
-
-  pinMode(BUTTON1_PIN, INPUT_PULLUP);
-  pinMode(BUTTON2_PIN, INPUT_PULLUP);
   pinMode(2, OUTPUT);
 }
 
